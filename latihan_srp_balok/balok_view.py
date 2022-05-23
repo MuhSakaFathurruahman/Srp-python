@@ -8,3 +8,6 @@ class BalokView:
         
     def show_keliling(self, balok: Balok, balok_controller: BalokController):
         print (balok_controller.hitung_keliling(balok))
+        
+    def show_volume(self, balok: Balok, balok_controller: BalokController):
+        print (balok_controller.hitung_volume(balok))

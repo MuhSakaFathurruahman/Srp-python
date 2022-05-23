@@ -6,5 +6,6 @@ shape = Balok(5, 10, 15)
 hitung = BalokController()
 show = BalokView()
 
-show.show_luas(shape, BalokController)
-show.show_keliling(shape, BalokController)
+show.show_luas(shape, hitung)
+show.show_keliling(shape, hitung)
+show.show_volume(shape, hitung)
