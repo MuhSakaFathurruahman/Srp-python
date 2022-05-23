@@ -1,5 +1,5 @@
 from persegi import Persegi
-from persegi_controller import PersegiControl
+from persegi_controller import PersegiController
 from persegi_view import PersegiView
 
 persegi = Persegi(2)
